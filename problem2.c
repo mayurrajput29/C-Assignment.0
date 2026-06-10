@@ -1,18 +1,27 @@
 #include<stdio.h>
-
 int main()
 {
 
-//Q.Write a C program to find the area of a circle.
-//-----------------------------------------------------------
+//Write a program to check given 3 digit number is pallindrome or not #program.2
+
+int Number = 313;
+
+if (Number/100 == Number%10)
+{
+    printf("PALINDRONE");
+}
+else
+{
+    printf("NOT PALINDRONE");
+}
 
 
-float radius;
 
-printf("The radius is :");
-scanf("%f",&radius);
 
-printf("The circle radius is :%f",3.14*radius*radius);
+
+
+
+
 
 
     return 0;
