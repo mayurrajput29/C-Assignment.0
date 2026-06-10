@@ -1,21 +1,28 @@
 #include<stdio.h>
-#include<math.h>
 int main()
 {
 
-// Write a C program to find the square and cube of a given number //#problem6.c
+// Write a program to check whether a given character is uppercase or lowercase #problem.6
 
-int area;
-int cube;
+char ch;
 
-printf("Enter the Area of square :");
-scanf("%d",&area);
-printf("%d",area=area*area);
+printf("Enter the chracter letter :");
+scanf("%c",&ch);
 
-printf("The volume of cube is :");
-scanf("%d",&cube);
-printf("%d",cube=cube*cube*cube);
+if (ch>='A'&& ch<='Z')
+{
+    printf("UPPER CASE");
+}
+else if(ch>='a'&& ch<='z')
+{
+    printf("LOWER CASE");
+}
+else 
+{
+    printf("Not an alphabet");
+
+}
 
 
-  return 0;
+    return 0;
 }
