@@ -2,17 +2,19 @@
 int main()
 {
 
-//write a c program to input five numbers and find thier average.
-//#problem.5
+// Write a program to check whether a person is eligible to vote (age ≥ 18) #problem.6
 
-int a, b, c, d, e, sum;
+int age;
+printf("Enter your age :");
+scanf("%d",&age);
 
-printf("Enter the value of :");
-scanf("%d%d%d%d%d", &a,&b,&c,&d,&e);
-
-sum =a+b+c+d+e;
-printf("Sum is :%d\n", sum);
-printf("Average is : %d", sum/5);
-
+if(age>=18)
+{
+    printf("ELIGIBLE FOR VOTE ");
+}
+else
+{
+    printf("NOT ELIGIBLE FOR VOTE !!");
+}
     return 0;
 }
