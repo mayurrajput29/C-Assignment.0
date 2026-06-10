@@ -1,19 +1,19 @@
 #include<stdio.h>
-
 int main()
 {
 
-/* converting temperature from Celsius to Fahrenheit
- using formula : F=(C∗9/5)+32*/
+//Write a program to check whether a given year is a leap year #problem.3
 
-    float C, F;
+int year = 2024;
 
-    printf("Enter temperature in Celsius: ");
-    scanf("%f", &C);
-
-    F = (C * 9 / 5) + 32;
-
-    printf("Temperature in Fahrenheit = %.2f", F);
+if (year%4==0)
+{
+  printf("Leap year");
+}
+else
+{
+   printf("Not leap year");
+}
 
     return 0;
 }
