@@ -1,19 +1,21 @@
 #include<stdio.h>
 int main(){
 
-// C program to swap two numbers using a temporary third variable
+//Write a program to check whether a given character is a vowel or consonant #problem.4
 
-int x = 45;
-int y = 55;
-int temp;
+char ch ;
 
-temp = x;       // temp = x(45)
-x = y;         // x = y(55)
-y = temp;     //y = temp(45)
+printf("Enter the character :");
+scanf("%c",&ch);
 
-
-printf("The value of x is :%d\n",x);
-printf("The value of y is :%d",y);
+if (ch=='a'||'e'=='i'||'o'=='u'||ch=='A'||'E'=='I'||'O'=='U')
+{
+    printf("Vowels");
+}
+else
+{
+   printf("consonant");
+}
 
     return 0;
 }
