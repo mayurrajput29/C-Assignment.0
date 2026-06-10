@@ -1,24 +1,19 @@
 #include<stdio.h>
-
 int main()
 {
 
- // Assignment 0.
- //1. Write a C program to add two integers and display the result.
+//Write a program to check whether a number is even or odd #problem.1
 
-int num1 , num2 , sum;
+int num = 15;
 
-printf("Enter the value of num1 :");
-scanf("%d", &num1);
+if (num%2==0)
+{
+    printf("The number is even");
+}
+else
+{
+    printf("The num is odd");
+}
 
-printf("Enter the value of num2 :");
-scanf("%d", &num2);
-
-sum = num1 + num2;
-
-printf("The addition of num1 & num2 : %d",sum);
-
-
-return 0;
-
+    return 0;
 }
